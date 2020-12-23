@@ -241,6 +241,7 @@ nav a{
     margin-top: 80px;
     font-style: italic;
     font-size: 0.5em;
+    }
 }
 @media screen and (max-width:900px){}
 .about-container{
@@ -262,7 +263,7 @@ nav a{
     content: "";
     transform: skewY(0deg, -10deg);
 }
-/*.seconddiv{
+.seconddiv{
     height: calc(100vh / 3);
     width: 100vw;
     background-color: #7594B3;
@@ -271,4 +272,4 @@ nav a{
     height: calc(100vh / 3);
     width: 100vw;
     background-color: #0063A8;
-}*/
+}
