@@ -1,0 +1,141 @@
+body{
+    margin: 00;
+    padding: 00;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    overflow-x: hidden;
+
+}
+.about-container{
+    height: 2200px;
+    width: 100vw;
+    padding-bottom: 50px;
+    padding-top: 00;
+    padding-left: 00;
+    padding-right: 00;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.header-space{
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 00;
+    padding: 00;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.logo-link{
+    height: 200px;
+    width: 250px;
+    background-color: indigo;
+    background: url("logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.firstabout{
+    height: 600px;
+    width: 80vw;
+    background: url("blackBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.smallbox{
+    height: 300px;
+    width: 400px;
+    background: white;
+    margin-right: 100px;
+}
+.secondabout{
+    height: 1200px;
+    width: 60vw;
+    background-color: lightgray;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+} 
+.box{
+    height: 100%;
+    width: 80vw;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.minibox1{
+    width: 48%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.minibox2{
+    width: 48%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width:800px){
+    .about-container{
+        height: 1770px;
+    }
+    .header-space{
+        height: 150px;
+        margin-bottom: 20px;
+    }
+   
+    .firstabout{
+        height: 500px;
+        width: 100vw;
+        justify-content: center;
+    } 
+    .smallbox{
+        height: 300px;
+        width: 350px;
+        background: white;
+        margin-right: 0px;
+    }
+    .secondabout{
+        height: 1100px;
+        width: 100vw;
+        background-color: lightgray;
+        padding: 00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.7;
+    } 
+    .box{
+        height: 1100px;
+        width: 100vw;
+        background-color: lightgray;
+        padding: 00;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .minibox1{
+        width: calc(100vw - 25px);
+        height: 500px;
+        padding: 12.5px;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 50px;
+    }
+    .minibox2{
+        width: calc(100vw - 25px);
+        height: 500px;
+        padding: 12.5px;
+        background-color: rgb(255, 255, 255);
+    }
+}

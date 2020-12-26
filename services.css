@@ -1,0 +1,38 @@
+body{
+    margin: 00;
+    padding: 00;
+}
+.grid-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". box1 ."
+      ". box2 ."
+      ". box3 .";
+  }
+.box1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "sample text";
+    grid-area: box1;
+    background-color:rgb(255, 255, 255);
+}
+.sample { 
+    grid-area: sample; 
+    background: url("construction.jpg");
+    clip-path: polygon(0 0, 100% 0, 0 100%, 0 100%);
+}
+.text { grid-area: text; 
+background-color: blue;}
+  
+  .box2 { grid-area: box2; }
+  
+  .box3 { grid-area: box3; }
+  
